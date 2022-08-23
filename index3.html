@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
+      <strong>Success: </strong>Your Form Has Been Submitted
+     
+    </div>
+     <div class="alert alert-danger alert-dismissible fade show" role="alert" id="failure">
+      <strong>Error: </strong>Your Form Has Not Been Submitted
+     
+    </div>
+    <div class="container my-4">
+      <h1 class="text-center">Traveller Agent</h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="text" class="form-control" id="email" placeholder="name@example.com">
+          <small class="invalid-feedback">
+            Enter the email correctly
+          </small> 
+          <small class="valid-feedback">
+            Looks Good!
+          </small>
+        </div>
+        <div class="form-group">
+          <label for="name">username</label>
+          <input type="text" class="form-control" id="username" placeholder="username" value="@">
+          <small class="invalid-feedback">
+            Enter Username contains only small letters, min 2, max 10, no whitespace
+          </small> 
+          <small class="valid-feedback">
+           Looks Good!
+          </small>
+        </div>
+        <!-- <div class="form-group">
+          <label for="exampleFormControlSelect1">Select Car</label>
+          <select class="form-control" id="car">
+            <option>car 1</option>
+            <option>car 2</option>
+            <option>car 3</option>
+            <option>car 4</option>
+            <option>car 5</option>
+          </select>
+        </div> -->
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Phone Number</label>
+          <input type="text" class="form-control" id="phone" value="+91">
+          <small class="invalid-feedback">
+            Enter valid phone number
+          </small> 
+          <small class="valid-feedback">
+           Looks Good!
+          </small>
+        </div>
+
+      <button type="submit" id="submit" class="btn btn-primary">Submit</button> 
+      <button type="button" id="showBtn" class="btn btn-primary">Show Forms</button>
+      </form>
+    
+      <hr>
+    </div>
+    <div class="container">
+      <table class="table table-striped table-dark" id="showform">
+       
+      </table>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/test.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
